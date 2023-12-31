@@ -1,0 +1,14 @@
+html {
+  background: #0b1416;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+#home-logo > img {
+  width: 32px;
+  height: 32px;
+}
