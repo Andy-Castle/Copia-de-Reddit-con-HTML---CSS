@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Reddit Search Bar</title>
+  </head>
+  <body>
+    <div class="search-bar-container">
+      <label for="buscar" id="label">
+        <span class="search-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="16"
+            width="16"
+            viewBox="0 0 512 512">
+            <path
+              fill="#ffffff"
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+          </svg>
+        </span>
+        <span id="buscador">
+          <input
+            type="search"
+            id="buscar"
+            class=".buscador"
+            placeholder="Search Reddit" />
+        </span>
+      </label>
+    </div>
+  </body>
+
+  <style>
+    body {
+      background: #0b1416;
+    }
+    #buscar {
+      background-color: #1a282d;
+      border: none;
+      outline: none;
+    }
+    .buscador {
+      width: 662.3px;
+      height: 20px;
+      background-color: #1a282d;
+    }
+    .search-bar-container {
+      border: 1.6px solid #1a282d;
+    }
+
+    .search-bar-container {
+      display: flex;
+      align-items: center;
+      background-color: #1a282d;
+    }
+
+    .search-icon > svg {
+      width: 16px;
+      height: 16px;
+      display: flex;
+    }
+
+    #label {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</html>
