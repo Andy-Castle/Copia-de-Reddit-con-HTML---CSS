@@ -37,33 +37,28 @@
     @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
     body {
       background: #0b1416;
-    }
-    #buscar {
-      background-color: #1a282d;
-      border: none;
-      outline: none;
+      /* background: #223237; */ /*color del hover*/
     }
     .buscador {
       width: 662.8px;
       height: 20px;
-      background-color: #1a282d;
+      background-color: transparent;
       text-align: start;
       font-size: 18px;
       color: white;
-    }
-    .search-bar-container {
-      border: 1.6px solid #1a282d;
-      border-radius: 20px;
-      padding: 0 16px;
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-    }
 
+      border: none;
+      outline: none;
+    }
     .search-bar-container {
       display: flex;
       align-items: center;
       background-color: #1a282d;
       width: 720px;
       height: 40px;
+      border-radius: 20px;
+      padding: 0 16px;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
     }
 
     .search-icon > svg {
@@ -81,6 +76,12 @@
     #buscador {
       padding: 8px 0;
       margin-top: 2.5px;
+    }
+
+    .search-bar-container:hover,
+    .buscador:hover {
+      background: #223237;
+      cursor: text;
     }
   </style>
 </html>
